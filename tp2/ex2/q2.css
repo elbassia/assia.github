@@ -32,6 +32,24 @@
     margin-left: 20%;
     width: 60%;
   }
+
+@media screen and (max-width:768px) {
+    .section1, .section2, .section3, .section4 {
+      width: 49%;
+      /* The width is 49%, break point, when the viewport is 768px or smaller on tab*/
+    }
+  }
+  @media screen and (max-width:768px) {
+      .section5, .section6 {
+        width: 100%;
+        /* The width is 100%, when the viewport is 768px or smaller */
+      }
+  }
+  @media screen and (max-width:600px) {
+        .section1, .section2, .section3, .section4, .section5, .section6 {
+         width: 100%;}
+
+
   
   .section1 {
     background-color: #c6d9f1;
