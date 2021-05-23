@@ -1,0 +1,40 @@
+html{
+    height:100%;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background:linear-gradient(#141e30,#243b55);
+}
+.box{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    width: 400px; 
+    height: 400px;
+    padding: 40px;
+    transform: translate(-50%,-50%);
+    background:rgba(0,0,0,.5);
+    box-sizing:box-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius:10px;
+     
+}
+h2{
+    margin:0 0 30px;
+    padding:0;
+    color:#fff;
+    text-align: center;
+}
+.box li{
+    width: 100%;
+    font-size:16px;
+    color:#fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom:30px;   
+}
+a{
+ color: skyblue;
+}
